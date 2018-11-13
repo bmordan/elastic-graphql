@@ -1,0 +1,18 @@
+[
+    {
+        "id": 100,
+        "name": "Acme Inc",
+        "location": {
+          "name": "Almaty",
+          "point": [43.238949, 76.889709]
+        }
+    },
+    {
+        "id": 101,
+        "name": "Google",
+        "location": {
+          "name": "Mountain View",
+          "point": [37.4133028, -122.1513073]
+        }
+    }
+]

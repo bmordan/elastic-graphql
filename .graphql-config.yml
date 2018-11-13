@@ -1,0 +1,7 @@
+projects:
+  demo_user:
+    schemaPath: ./schema.js
+    includes: ["**/*.graphql"]
+    extensions:
+      endpoints:
+        default: http://localhost:9201

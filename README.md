@@ -12,4 +12,10 @@ npm start
 
 OK now you have an elastic at `http://localhost:9200` and a graphiql at `http://localhost:9201`
 
-# Go Play
+## Seeding
+
+You can empty the database with `npm run empty`
+
+and seed it again with `npm run seed`
+
+## Now Go Play

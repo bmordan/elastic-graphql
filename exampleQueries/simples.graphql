@@ -1,0 +1,34 @@
+{
+  userSearchConnection (
+    query: {match_all: {boost: 1.0}}
+    sort: [createdAt__asc]
+  ){
+    edges{
+      node {
+        _source{
+          name
+          position
+          salary{
+            total
+          }
+        }
+      }
+    }
+  }
+}
+
+{
+  orgSearchConnection(sort: [name__keyword__asc]) {
+    edges {
+      node {
+        _source {
+          name
+          location {
+            name
+            point
+          }
+        }
+      }
+    }
+  }
+}
